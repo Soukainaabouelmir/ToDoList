@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\ResetPasswordController;
 use App\Http\Controllers\TaskController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,9 @@ use App\Http\Controllers\TaskController;
 */
 
 
+Route::get('/', function () {
+    return view('home');
+})->name('home');
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
     ->name('login');
 
