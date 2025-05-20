@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
-class AuthorizeAdmin
+class AuthenticateAdmin
 {
     public function handle(Request $request, Closure $next, $ability)
     {
