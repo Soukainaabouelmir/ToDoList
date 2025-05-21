@@ -50,7 +50,7 @@ Les fichiers YAML utilisés pour le déploiement sont présents dans le dossier 
 
 ## 5. Git et Gestion de Projet
 
-- Le projet utilise une structure de branches : `main` pour la version stable et `dev` pour les développements.
+- Le projet utilise une structure de branches : `master` pour la version stable et `dev` pour les développements.
 - Un fichier `.gitignore` a été configuré pour ignorer les fichiers non pertinents.
 - Une Pull Request a été simulée pour montrer l’intégration de nouvelles fonctionnalités avec validation.
 
